@@ -21,3 +21,64 @@ body{
   font-family:"Roboto",sans-serif;
 }
 
+.input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 50px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input > *{
+  font-size: 20px;
+  align-items: center;
+  height: 30px;
+  padding: 2px;
+  padding-left: 10px;
+}
+
+.input .NAME{
+  margin-left: 50px;
+}
+
+.input .name{
+  margin-left: 10px;
+  margin-right: 50px;
+  border-width: 2px;
+   
+  width : 200px;
+}
+.input .date{
+  margin-left: 10px;
+  margin-right: 50px;
+  border-width: 2px;
+ 
+  width : 200px;
+
+}
+
+.radioButton{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.radioButton > label{
+  font-size: 20px;
+}
+
+.radioButton > input{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+}
