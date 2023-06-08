@@ -1,10 +1,9 @@
-import RandomColor from "./Rendomize_colors_using_buttons/RandomColor";
-import './Rendomize_colors_using_buttons/RandomColor.css'
+import LikeMyPhoto from "./LikeMyPhoto/likeMyPhoto";
 
 function App() {
   return (
     <div className="App">
-      <RandomColor />
+      <LikeMyPhoto />
     </div>
   );
 }

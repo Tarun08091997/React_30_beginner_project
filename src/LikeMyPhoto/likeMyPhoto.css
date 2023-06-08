@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.likeMypoto_container{
+    background-color: #606C5D;
+    height: 100vh;
+    width: 100bh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.likeMyphoto_title{
+    margin-top: 10px;
+    color: #F1C376;
+    font-size: 30px;
+}
+
+.num_likes{
+    color: #FFF4F4;
+    margin-top: 30px;
+}
+
+.image_container{
+    height: 350px;
+    width: 250px;
+    background-color: #FFF4F4;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 45px 260px 45px;
+    justify-items: space-between;
+    align-items:1;
+
+}
+
+.image_container .image_heading{
+    background-color: #7C96AB;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.image_holder{
+    background-color: #FFF4F4;
+}
+
+.image_footer{
+    background-color: #302d2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
