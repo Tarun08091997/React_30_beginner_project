@@ -1,9 +1,9 @@
-import LikeMyPhoto from "./LikeMyPhoto/likeMyPhoto";
+import Testimonial from "./Testimonials/testimonial";
 
 function App() {
   return (
     <div className="App">
-      <LikeMyPhoto />
+      <Testimonial />
     </div>
   );
 }

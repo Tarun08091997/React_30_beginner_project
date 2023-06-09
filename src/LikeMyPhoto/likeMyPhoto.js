@@ -1,10 +1,10 @@
 import React from 'react'
 import './likeMyPhoto.css'
-import { useState , useEffect } from 'react';
+import { useState } from 'react';
 import { AiOutlineSmile , AiOutlineLike ,AiFillLike} from 'react-icons/ai';
 import {FcLike , FcLikePlaceholder} from 'react-icons/fc'
 
-import myImage from './images/Resized/aquriam.jpg'
+import myImage from './images/aquriam.jpg'
 
 
 export default function LikeMyPhoto() {   
