@@ -1,9 +1,9 @@
-import Testimonial from "./Testimonials/testimonial";
+import Alert from "./05-Alert/Alert";
 
 function App() {
   return (
     <div className="App">
-      <Testimonial />
+      <Alert />
     </div>
   );
 }
