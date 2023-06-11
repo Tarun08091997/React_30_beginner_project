@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tempratureController_container{
+    /* position */
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Properties */
+    height: 300px;
+    width: 300px;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    border: 1px white;
+    box-shadow: 0px 2px 15px 0px black;
+    /* For children */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 225px 75px;
+    align-items: center;
+    justify-items: center;
+}
+
+.circle{
+    /* Position */
+    grid-column: 1/3;
+    /* Property */
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    transition: background-color 0.2s ease-in-out;
+    /* Children */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.control_btn{
+    /* property */
+    height: 35px;
+    width: 75px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    border: 0px transparent;
+    box-shadow: 0px 7px 10px 0 rgba(0,0,0,0.4);
+}
+
+.control_btn:hover{
+    box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.2);
+}
+.control_btn:active{
+    box-shadow: 0px 7px 10px 0 rgba(255,255,255,0.4);
+}
+.increase_temp{
+    background-color: #FD5D5D;
+}
+
+.decrease_temp{
+    background-color: #9AC5F4;
+        
+}
+
+.temp_lbl , .degree{
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.temp_lbl {
+    font-size: 80px;
+}
+.degree{
+    font-size: 40px;
+    margin-bottom: 70px;
+}

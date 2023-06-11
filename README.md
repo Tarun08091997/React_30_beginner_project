@@ -13,3 +13,5 @@
         Get data such as comments, user name , mobile number , email Address from an API and show it on screen
 5. Create Alert
         Create your own alerts
+6. Temprature control
+        control temprature output using two btns

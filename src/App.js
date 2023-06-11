@@ -1,9 +1,9 @@
-import Alert from "./05-Alert/Alert";
+import TempratureComtroller from "./06-TempratureController/tempratureComtroller";
 
 function App() {
   return (
     <div className="App">
-      <Alert />
+      <TempratureComtroller />
     </div>
   );
 }

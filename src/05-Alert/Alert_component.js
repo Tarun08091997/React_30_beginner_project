@@ -6,6 +6,7 @@ export default function Alertcomponent({color , text , order}) {
 
     useEffect(()=>{
         if(!visible){
+          
           return null;
         }
     },[visible])
