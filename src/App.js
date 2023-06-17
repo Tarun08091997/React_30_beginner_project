@@ -1,9 +1,9 @@
-import TempratureComtroller from "./06-TempratureController/tempratureComtroller";
+import SlideToUnlock from "./08-slide-to-unlock/SlideToUnlock";
 
 function App() {
   return (
     <div className="App">
-      <TempratureComtroller />
+      <SlideToUnlock/>
     </div>
   );
 }
