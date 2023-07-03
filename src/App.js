@@ -1,9 +1,10 @@
-import SlideToUnlock from "./08-slide-to-unlock/SlideToUnlock";
+import SlideToChange from "./09-slide-to-change/SlideToChange";
+
 
 function App() {
   return (
     <div className="App">
-      <SlideToUnlock/>
+      <SlideToChange />
     </div>
   );
 }
